@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  /* background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%); */
+  /* background-color: #2b5876; */
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* start media  */
+/* small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970;
+  }
+}
+/* large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* end main styles */
+
+/*===================  START JAVASCRIPT 3 PROJECT STYLES  ===================*/
+.sc-4 {
+  background-color: #f9f9f97a;
+  height: 100vh;
+}
+.nav-center {
+  display: flex;
+  padding: 30px;
+  background: #f9f9f9;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  justify-content: space-between;
+}
+.nav-links {
+  display: flex;
+}
+.nav-links li a {
+  margin-right: 16px;
+  color: hsl(205deg 86% 17%);
+}
+.sc-4 h4,
+h3,
+li,
+.color {
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  line-height: 1.25;
+}
+.sc-4 h4 {
+  color: #49a6e9;
+}
+.main {
+  display: grid;
+  place-items: center;
+  height: 80vh;
+}
+.container-03 {
+  text-align: center;
+  padding: 2px;
+}
+.container-03 h3 {
+  background: #222;
+  color: #fff;
+  font-size: 30px;
+  padding: 1rem;
+  max-width: 350px;
+  border-radius: 15px;
+  margin-bottom: 2.5rem;
+}
+.btn {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  background: transparent;
+  color: #222;
+  padding: 0.375rem 0.75rem;
+  letter-spacing: 3px;
+  display: inline-block;
+  font-weight: 700;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  border: 2px solid #222;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+  border-radius: 10px;
+}
+.btn-hero {
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+.color {
+  color: #49a6e9;
+}
+
+/*===================  END JAVASCRIPT 3 PROJECT STYLES  ===================*/
